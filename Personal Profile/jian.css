@@ -1,0 +1,98 @@
+html{
+  height: 100%;
+}
+
+body {
+    color:#444;
+margin:0;
+    background-color:#1d1d1d;
+}
+
+
+h1 {
+    display: block;
+    font-size: 4.2em;
+    margin: 0px;
+    font-weight: bold;
+}
+
+h1:first-child::before {
+content: '<h1>';
+font-family: 'La Belle Aurore',cursive;
+color: #515152;
+font-size: 18px;
+position: absolute;
+margin-top: -40px;
+left: -25px;
+
+}
+
+.lasth1::after {
+content: '</h1>';
+font-family: 'La Belle Aurore',cursive;
+color: #515152;
+font-size: 18px;
+margin-left:18px;
+
+
+}
+
+
+h1:hover{
+  color: aqua;
+}
+
+div.fixed {
+  position: fixed;
+  margin-top: 15vw;
+  margin-left: 15vw; 
+}
+
+button{
+  padding: 10px;
+  background-color: transparent;
+  color: #08fdd8;
+  border: 1px solid #08fdd8;
+
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 10px;
+  position: fixed;
+  width: 50px;
+  height: 100%;
+  text-align: center;
+  background-color: #181818;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+
+li a {
+  display: block;
+  color:white;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-bottom: 25px;
+
+}
+
+i:hover{
+  opacity:0.5;
+}
+
+.goingdown{
+  margin-top: 300px;
+  
+}
+
+.logo{
+ 
+}
+
+.circle:hover {
+
+}

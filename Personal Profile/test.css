@@ -1,0 +1,9 @@
+body{
+        height: 100%;
+}
+    
+body {
+        background-image: url('image/blackbackground.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
